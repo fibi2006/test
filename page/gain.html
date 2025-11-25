@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutrition</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./../styles/nutrition.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!--Nav Bar-->
+    <nav class="fixed-top  ">
+        <a href="#" class="hamburger">&#9776;</a>
+        <ul class="nav mainNav justify-content-center">
+            <li class="nav-item">
+                <a class="navbar-brand " href="#">
+                    <img src="./../image/logo (2) - Copy.png" alt="Logo" id="logo" class="me-2">
+                    <span id="webName">FitWay</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link home " href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link nutrition active" aria-current="page" href="nutrition.html">Nutrition</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link fitness " href="#">Fitness</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link trainers" href="#">Trainers</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link rewards " href="#">Rewards</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link Contact " href="#">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+
+    <br><br>
+
+    <div class="title">Nourish Your Body, Energize Your Life</div>
+
+    <div class="subtitle">Discover delicious, healthy recipes and essential nutrition tips to fuel your <br> journey
+        towards optimal health and vitality.
+    </div>
+    <div class="recipes-section">
+        <div class="recipes">Featured Recipes & Health Insights</div>
+
+        <!--Recipes Nav Bar-->
+
+        <nav>
+            <div id="recipeNav">
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link WeightLoss " href="./nutrition.html">Weight Loss</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link WeightGain active " aria-current="page" href="./gain.html">Weight Gain</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link Maintenance" href="maintenance.html">Maintenance</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+
+        <br><br><br><br><br><br>
+        <!--Cards-->
+
+        <div class="container space">
+
+            <div class="row ">
+                <div class="col-md-4">
+
+                    <div class="card1 h-100">
+                        <img src="./../image/gain/card 1.png" class="card-img-top" alt="...">
+                        <div class="card-body d-flex flex-column">
+                            <span class="badge  ">700 kcal</span>
+                            <p class="card-text">This no-peek beef tips recipe could not be easier. With only 5
+                                ingredients, everything goes into the pot and cooks until it's done. Serve with mashed
+                                potatoes and roasted vegetables.
+                            </p>
+                            <div>
+                                <p class="details"> Protein: 50g</p>
+                                <p class="details"> Carbs: 10g</p>
+                                <p class="details"> Fat: 12g</p>
+                            </div>
+                        </div>
+
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#recipe1">
+                            View Recipe
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="recipe1" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Directions</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p class="steps">Step 1 <br></p>
+
+                                        Gather all ingredients. Preheat the oven to 300 degrees F (150 degrees C).
+                                        <p class="steps">Step 2 <br></p>
+
+                                        Whisk together soup, water, onion soup mix, and brown gravy mix in a 9x13-inch
+                                        baking dish.
+                                        <p class="steps">Step 3 <br></p>
+                                        Add beef cubes to the baking dish, stir to coat in the soup mixture. Cover dish
+                                        tightly with foil.
+                                        <p class="steps">Step 4 <br></p>
+
+                                        Bake without uncovering the dish for 2 1/2 hours.
+                                        <p class="steps">Step 5 <br></p>
+
+                                        Serve and enjoy.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4">
+                    <div class="card2 h-100">
+                        <img src="./../image/gain/card 2.png" class="card-img-top" alt="...">
+                        <div class="card-body d-flex flex-column">
+                            <span class="badge  ">525 kcal</span>
+                            <p class="card-text">This tasty Reuben casserole with layers of sauerkraut, corned beef,
+                                Swiss cheese, rye bread crumbs, and Russian-style salad dressing is like a baked deli
+                                sandwich in a dish..</p>
+                            <div>
+                                <p class="details"> Protein: 30g</p>
+                                <p class="details"> Carbs: 35g</p>
+                                <p class="details"> Fat: 39g</p>
+
+                            </div>
+
+                        </div>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary " data-bs-toggle="modal" data-bs-target="#recipe2">
+                            View Recipe
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="recipe2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Directions</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p class="steps">Step 1 <br></p>
+
+                                        Preheat the oven to 400 degrees F (200 degrees C). Spray a 9x13-inch casserole
+                                        dish with cooking spray. Spray one sheet of aluminum foil with cooking spray.
+                                        <p class="steps">Step 2 <br></p>
+
+                                        Spread bread cubes in the bottom of the prepared casserole dish. Layer bread
+                                        cubes with sauerkraut and beef strips, then pour dressing over top. Cover with
+                                        the aluminum foil, sprayed-side down.
+                                        <p class="steps">Step 3 <br></p>
+
+                                        Bake in the preheated oven for 20 minutes. Remove and discard foil; sprinkle
+                                        Swiss cheese over casserole. Continue baking until cheese is melted and bubbly,
+                                        about 10 more minutes.
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4">
+                    <div class="card3 h-100">
+                        <img src="./../image/gain/c.webp" class="card-img-top" alt="...">
+                        <div class="card-body d-flex flex-column">
+                            <span class="badge  ">320 kcal</span>
+                            <p class="card-text">This classic Swiss steak, round or rump steak slowly braised with
+                                tomatoes and vegetables,
+                                is best served over rice. This comforting dish is also easy on the budget.</p>
+                            <div>
+                                <p class="details"> Protein: 15g</p>
+                                <p class="details"> Carbs: 40g</p>
+                                <p class="details"> Fat: 10g</p>
+
+                            </div>
+                        </div>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#recipe3">
+                            View Recipe
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="recipe3" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Directions</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p class="steps">Step 1 <br></p>
+
+                                        Stir flour, kosher salt, black pepper, paprika, and garlic powder together in a
+                                        small bowl.
+                                        Pound steak with a meat mallet. Sprinkle meat with flour mixture on both sides
+                                        and use the meat mallet to pound the mixture into the meat.
+                                        <p class="steps">Step 2 <br></p>
+
+                                        Heat oil in a large deep skillet or Dutch oven over medium-high heat until
+                                        slightly shimmering.
+                                        Add meat and cook, undisturbed, until browned and releases easily from the pan,
+                                        about 3 minutes.
+                                        Flip steak and cook for 2 more minutes. Remove from the pan and set aside.
+                                        <p class="steps">Step 3 <br></p>
+
+                                        Add onion, bell pepper, carrots and mushrooms to the drippings in pan;
+                                        cook and stir until onion is translucent, about 5 minutes. Stir in stewed
+                                        tomatoes.
+                                        Return steak to pan, along with any accumulated juices and bring to a simmer.
+                                        <p class="steps">Step 4 <br></p>
+
+                                        Cover, reduce heat and simmer until steak is tender, about 1 1/2 hours.
+                                        Sprinkle with parsley and serve steak and tomato mixture over rice.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-4">
+                    <div class="card4 h-100">
+                        <img src="./../image/gain/card 4.png" class="card-img-top" alt="...">
+                        <div class="card-body d-flex flex-column">
+                            <span class="badge  ">380 kcal</span>
+                            <p class="card-text">Tomatoes, onions, and cucumbers (yes, cucumbers!) roast along with the
+                                Greek flank steak,
+                                creating a crunchy, juicy salad that just begs to be topped with feta.</p>
+                            <div>
+                                <p class="details"> Protein: 30g</p>
+                                <p class="details"> Carbs: 30g</p>
+                                <p class="details"> Fat: 15g</p>
+
+                            </div>
+
+                        </div>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#recipe4">
+                            View Recipe
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="recipe4" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Directions</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p class="steps">Step 1 <br></p>
+
+                                        Put steak in a large resealable plastic bag. Whisk olive oil, lemon juice,
+                                        Worcestershire sauce, garlic, oregano, salt, and pepper in a small bowl. Reserve
+                                        1/2 cup marinade for vegetables; pour remainder over steak and turn to coat.
+                                        Seal bag. Chill at least 2 hours or up to 12 hours.
+                                        <p class="steps">Step 2 <br></p>
+
+                                        Preheat oven to 450 degrees F (230 degrees C). Place 1 rack in center position
+                                        and another 4 inches from broiler. Line a baking sheet with aluminum foil and
+                                        spray with cooking spray.
+                                        <p class="steps">Step 3 <br></p>
+
+                                        Toss chickpeas, tomatoes, cucumber, and onion with reserved 1/2 cup marinade on
+                                        the prepared baking sheet and spread in an even layer.
+                                        <p class="steps">Step 4 <br></p>
+
+                                        Roast on center rack until vegetables begin to pucker and brown, 15 to 20
+                                        minutes.
+                                        <p class="steps">Step 5 <br></p>
+
+                                        Remove baking sheet from oven and turn oven to broil. Push vegetables to the
+                                        middle of the pan. Remove steak from marinade, allowing excess liquid to drip
+                                        off, brush off garlic, and set on top of vegetables. Discard marinade.
+                                        <p class="steps">Step 6 <br></p>
+
+                                        Broil steak on top rack, flipping once, until it begins to char and an
+                                        instant-read thermometer inserted into thickest part registers 125 degrees F (52
+                                        degrees C) for rare or 135 degrees F (57 degrees C) for medium-rare, 3 to 5
+                                        minutes per side.
+                                        <p class="steps">Step 7 <br></p>
+
+                                        Cover loosely with foil and let rest 10 minutes before slicing steak thinly
+                                        across the grain. Serve warm steak and vegetables with pan juices over romaine,
+                                        sprinkled with feta cheese and parsley.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card5 h-100">
+                        <img src="./../image/gain/card 5.png" class="card-img-top" alt="...">
+                        <div class="card-body d-flex flex-column">
+
+                            <span class="badge  ">280 kcal</span>
+                            <p class="card-text">This loaf pan chicken gyros comes out moist and tender and picks up
+                                lots of flavor from the yogurt marinade.</p>
+                            <div>
+                                <p class="details"> Protein: 25g</p>
+                                <p class="details"> Carbs: 10g</p>
+                                <p class="details"> Fat: 10g</p>
+
+                            </div>
+
+                        </div>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#recipe5">
+                            View Recipe
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="recipe5" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Directions</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p class="steps">Step 1 <br></p>
+
+                                        Gather all ingredients. Preheat the oven to 400 degrees F (200 degrees C). Line
+                                        a 9x5-inch loaf pan with parchment paper.
+                                        <p class="steps">Step 2 <br></p>
+
+                                        Whisk together yogurt, lemon zest, lemon juice, olive oil, garlic, oregano,
+                                        salt, paprika, dill, and pepper in a large bowl. Add chicken and toss to coat.
+
+
+                                        <p class="steps">Step 3 <br></p>
+
+                                        Layer chicken thighs in the prepared loaf pan, then insert 3 to 4 bamboo skewers
+                                        vertically through the layers to hold the chicken together. Scrape any remaining
+                                        yogurt mixture over the chicken. (At this point, if desired, cover and marinate
+                                        in the refrigerator for 2 hours to overnight.)
+                                        <p class="steps">Step 4 <br></p>
+
+                                        Bake until chicken is browned and tender and an instant-read thermometer
+                                        inserted into the center registers 170 degrees F (77 degrees C), 1 hour and 10
+                                        minutes.
+                                        <p class="steps">Step 5 <br></p>
+
+                                        Let stand for 10 minutes.
+                                        <p class="steps">Step 6 <br></p>
+
+                                        Drain liquid from the loaf pan. Place chicken on a cutting board. Remove skewers
+                                        and slice against the grain.
+
+                                        <p class="steps">Step 7 <br></p>
+                                        Arrange chicken, pitas, tzatziki, tomato, and red onion on a platter for people to assemble their own gyros.
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4">
+                    <div class="card6 h-100">
+                        <img src="./../image/gain/card 6.png" class="card-img-top" alt="...">
+                        <div class="card-body d-flex flex-column">
+
+                            <span class="badge  ">320 kcal</span>
+
+                            <p class="card-text">Delicious vegan zucchini bread. Mmm-hmmm! This recipe makes two moist and tender loaves with shredded zucchini and applesauce. Add chopped walnuts or chocolate chips if you like.
+                            </p>
+                            <div>
+                                <p class="details"> Protein: 20g</p>
+                                <p class="details"> Carbs: 10g</p>
+                                <p class="details"> Fat: 18g</p>
+
+                            </div>
+
+                        </div>
+
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#recipe6">
+                            View Recipe
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="recipe6" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Directions</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p class="steps">Step 1 <br></p>
+
+                                        Gather the ingredients. Preheat the oven to 325 degrees F (165 degrees C). Grease and flour two 9x5-inch loaf pans.
+
+
+                                        <p class="steps">Step 2 <br></p>
+
+                                        Whisk flour, flax seeds, cinnamon, salt, baking soda, baking powder, and arrowroot together in a bowl until evenly blended; set aside.
+
+
+                                        <p class="steps">Step 3 <br></p>
+
+                                       Whisk applesauce, white sugar, brown sugar, vegetable oil, and vanilla extract in a separate bowl until smooth. Fold in flour mixture and shredded zucchini until moistened.
+                                        <p class="steps">Step 4 <br></p>
+
+                                        Divide batter between the prepared loaf pans.
+                                        <p class="steps">Step 5 <br></p>
+
+                                        Bake in the preheated oven until a toothpick inserted into the center comes out clean, about 70 minutes. Cool briefly in the pans before removing to cool completely on a wire rack.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <br><br>
+        </div>
+
+        <!--Weekly Meal Plan-->
+        <div class="plan">
+            <div id="plan">
+                <p id="planTitle">Your Personalized Weekly Meal Plan</p>
+                <p id="planSubtitle">Generate a comprehensive weekly meal plan tailored to your dietary <br>preferences,
+                    fitness
+                    goals, and even ingredient substitutions. Take the <br> guesswork out of healthy eating.</p>
+                <!-- <a href="#" id="GenerateBTN" class="btnPlan btn-primary">Generate Your Weekly Plan</a>-->
+
+                <!-- Button trigger modal -->
+                <button type="button" id="GenerateBTN" class="btnPlan btn-primary " data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">
+                    Generate Your Weekly Plan
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Your 7-Day Customized Meal Plan</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body ">
+                                <!--7 day meal-->
+                                <div id="mealPlan" class="row">
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <br><br><br><br><br><br><br><br><br><br><br><br>
+        <!--BMI CALCULATOR-->
+        <div class="container space">
+            <div id="calculator" class="card w-75 mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">BMI Calculator</h5>
+                    <p class="card-text text">Calculate your Body Mass Index to understand your health status.</p>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label for="Height" class="form-label">Height(cm)</label>
+                                <input type="number" id="height" class="form-control  inputs" placeholder="e.g., 175"
+                                    required min="100" max="220">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label for="Weight" class="form-label">Weight (kg)</label>
+                                <input type="number" id="weight" class="form-control  inputs" placeholder="e.g., 70"
+                                    required min="30" max="200">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="Age" class="form-label">Age (optional)</label>
+                        <input type="number" id="age" class="form-control  inputs" placeholder="e.g., 30" min="5"
+                            max="100">
+                    </div>
+                    <!-- <button type="button" id="calculateBMI" class="btnBMI btn-lg btn-danger" data-bs-toggle="popover"
+                       title="Your BMI Result" data-bs-content=""  data-bs-placement="bottom">
+                        Calculate BMI
+                    </button>-->
+                    <button id="calculateBMI" class="btnBMI btn-primary ">Calculate BMI</button>
+                    <div id="bmiResult" class="mt-3"></div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- Start Footer  -->
+        <footer>
+            <div class="footer-col">
+                <h4>Contact Us</h4>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>© 2025 FitWay. All Rights Reserved.</p>
+            </div>
+        </footer>
+
+        <!-- End Footer  -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="./../script/nutrition.js"></script>
+
+</body>
+
+</html>
